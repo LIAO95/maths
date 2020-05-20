@@ -1,0 +1,43 @@
+html, body {background: #1694d8;}
+.right_all .vodeo{background: #027ac6;}
+.news {background: rgba(30, 157, 223, 0.76);}
+.main {background-position: bottom;}
+.right_all {background: #027ac6;}
+.news_list ul li a,.zi_list a span{color: #fff;}
+.nav_all,.navbar {background: #027ac6;}
+.nav > li > a,.top ul li a{color: #004482;}
+.top ul li a{border-right: 2px solid #004482;}
+.top ul li a:hover{color: #f05b66}
+.news h3,.cy_zy h3,.zi_yuan h3{color: #002e77;}
+.lll {color: #fff;}
+.nan_tit { color: #002e77;}
+.nav > li > a { color: #b3ccff;}
+.footer {background: #027ac6;}
+.cy_zy a span {color: #ffffff;}
+.cy_zy h3>a {color: #9ac845;}
+
+.lessons .card:hover {
+    -webkit-box-shadow: 2px 13px 18px -2px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 2px 13px 18px -2px rgba(0, 0, 0, 0.35);
+    box-shadow: 2px 13px 18px -2px rgba(0, 0, 0, 0.35);
+}
+
+.lessons h3 {color: #002e77;}
+
+@media (max-width: 1024px){
+.nav_all {background: none;}
+.navbar-collapse {background: #01519b;}
+}
+
+@media (max-width: 768px){
+	.footer2 {background: #01519b;}
+}
+
+@media (max-width: 600px){
+.navbar {
+    background: url(../images/n_02.png);
+    background-size: cover;
+    background-position: left;
+    background-position-x: -300px;
+}
+}
